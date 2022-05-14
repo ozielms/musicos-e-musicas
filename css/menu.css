@@ -1,0 +1,52 @@
+.navegacao {
+    /* height: 50px; */
+    background-color: black;
+    box-shadow: 1px 2px #54542c;
+    color: aliceblue;
+    text-align: center;
+}
+
+.nav-menu>li {
+    padding: 0 0 0 30px;
+}
+
+.custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom.navbar-toggler {
+    border-color: rgba(255, 0, 0, 1);
+}
+
+
+/* ---------------------------------------------- */
+
+.conteudo {
+    padding-top: 80px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.propMusica {
+    width: 400px;
+}
+
+button.btnDiasDaSemana {
+    margin-bottom: 20px;
+    height: 120px;
+    background-color: black;
+}
+
+button.btnMusicas {
+    background-color: black;
+    color: white;
+    max-width: 400px;
+}
+
+.conteudo .btnDiasDaSemana:hover {
+    margin-bottom: 20px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}

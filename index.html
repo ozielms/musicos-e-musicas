@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Músicos & Músicas</title>
+
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+
+</head>
+
+<body>
+
+    <!-- NAV FIXED -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light navegacao">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="/images/logo.jpg" height="30">
+            </a>
+            <button class="navbar-toggler custom" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu Colapso">
+                <span class="navbar-toggler-icon text-light"></span>
+            </button>
+
+            <div id="menu" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto text-light nav-menu">
+                    <li class="nav-item">
+                        <a href="#header" class="nav-link text-light font-weight-bold">Item 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light font-weight-bold">Item 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light font-weight-bold">Item 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light font-weight-bold">Item 4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light font-weight-bold">Item 5 </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light font-weight-bold">Item 6 </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light font-weight-bold" id="servicos">Item 7 </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-light font-weight-bold">Item 8 </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ---------- FIM MENU ----------- -->
+
+    <!-- ---------- ACCORDION ----------- -->
+
+    <div class="conteudo">
+
+        <!-- Dia 01 -->
+        <button class="btn btn-primary btnDiasDaSemana" type="button" data-toggle="collapse" data-target="#item01" aria-expanded="false" aria-controls="item01">
+            <p>Quarta-feira <br>
+                11/05/2022 <br>
+                Instrumentistas: Caio, Oziel, Rodrigo, Fabiano <br>
+                Vocalistas: Keila, Gleicy, Júlia</p>
+        </button>
+        <div class="collapse" id="item01">
+            <div class="card card-body">
+                <!-- Música 01 do dia 01 -->
+                <button class="btn btn-primary btnMusicas" type="button" data-toggle="collapse" data-target="#musica01-01" aria-expanded="false" aria-controls="musica01-01">
+                    <p>01 O Senhor comigo está</p>
+                </button>
+                <div class="collapse" id="musica01-01">
+                    <div class="card card-body propMusica">
+                        <!-- Propriedades da música 01 -->
+                        <p>
+                            <strong>Solista: </strong>Marcelle <br>
+                            <strong>Tom: </strong>D (Ré) <br>
+                            <strong>BPM: </strong>142 <br>
+                            <strong>Link: </strong><a href="https://www.youtube.com/watch?v=r6dQaTyLsIM">Clique aqui</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-body">
+                <!-- Música 02 do dia 01 -->
+                <button class="btn btn-primary btnMusicas" type="button" data-toggle="collapse" data-target="#musica02-01" aria-expanded="false" aria-controls="musica02-01">
+                    <p>02 Eco</p>
+                </button>
+                <div class="collapse" id="musica02-01">
+                    <div class="card card-body propMusica">
+                        <!-- Propriedades da música 02 -->
+                        <p>
+                            <strong>Solista: </strong>Gleicy <br>
+                            <strong>Tom: </strong>C (Dó) <br>
+                            <strong>BPM: </strong>138 <br>
+                            <strong>Link: </strong><a href="https://www.youtube.com/watch?v=0-nr5TaDGnE">Clique aqui</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-body">
+                <!-- Música 03 do dia 01 -->
+                <button class="btn btn-primary btnMusicas" type="button" data-toggle="collapse" data-target="#musica03-01" aria-expanded="false" aria-controls="musica03-01">
+                    <p>03 Feliz demais</p>
+                </button>
+                <div class="collapse" id="musica03-01">
+                    <div class="card card-body propMusica">
+                        <!-- Propriedades da música 03 -->
+                        <p>
+                            <strong>Solista: </strong>Caio <br>
+                            <strong>Tom: </strong>B (Si) <br>
+                            <strong>BPM: </strong>140 <br>
+                            <strong>Link: </strong><a href="https://www.youtube.com/watch?v=gDb5RwSNBP0&list=PLF3kcCJTaFvZfQiDTHESEdTSgIbUviItf&index=2">Clique aqui</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-body">
+                <!-- Música 04 do dia 01 -->
+                <button class="btn btn-primary btnMusicas" type="button" data-toggle="collapse" data-target="#musica04-01" aria-expanded="false" aria-controls="musica04-01">
+                    <p>04 Sinto Fuir</p>
+                </button>
+                <div class="collapse" id="musica04-01">
+                    <div class="card card-body propMusica">
+                        <!-- Propriedades da música 04 -->
+                        <p>
+                            <strong>Solista: </strong>Keila <br>
+                            <strong>Tom: </strong>C (Dó) <br>
+                            <strong>BPM: </strong>130 <br>
+                            <strong>Link: </strong><a href="https://www.youtube.com/watch?v=bwUJsH6bVEI&list=PLF3kcCJTaFvZfQiDTHESEdTSgIbUviItf&index=29">Clique aqui</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dia 02 -->
+        <button class="btn btn-primary btnDiasDaSemana" type="button" data-toggle="collapse" data-target="#item02" aria-expanded="false" aria-controls="item02">
+            <p>
+                Domingo<br>
+                15/05/2022 <br>
+                Instrumentistas: Caio, Oziel, Léo, Moisés, Geovani <br>
+                Vocalistas: Keila, Gleicy, Júlia</p>
+        </button>
+        <div class="collapse" id="item02">
+            <div class="card card-body">
+                <!-- Música 01 do dia 01 -->
+                <button class="btn btn-primary btnMusicas" type="button" data-toggle="collapse" data-target="#musica01-02" aria-expanded="false" aria-controls="musica01-02">
+                    <p>01 O Senhor comigo está</p>
+                </button>
+                <div class="collapse" id="musica01-02">
+                    <div class="card card-body propMusica">
+                        <!-- Propriedades da música 01 -->
+                        <p>
+                            <strong>Solista: </strong>Marcelle <br>
+                            <strong>Tom: </strong>D (Ré) <br>
+                            <strong>BPM: </strong>142 <br>
+                            <strong>Link: </strong><a href="https://www.youtube.com/watch?v=r6dQaTyLsIM">Clique aqui</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-body">
+                <!-- Música 02 do dia 01 -->
+                <button class="btn btn-primary btnMusicas" type="button" data-toggle="collapse" data-target="#musica02-02" aria-expanded="false" aria-controls="musica02-02">
+                    <p>02 Eco</p>
+                </button>
+                <div class="collapse" id="musica02-02">
+                    <div class="card card-body propMusica">
+                        <!-- Propriedades da música 02 -->
+                        <p>
+                            <strong>Solista: </strong>Gleicy <br>
+                            <strong>Tom: </strong>C (Dó) <br>
+                            <strong>BPM: </strong>138 <br>
+                            <strong>Link: </strong><a href="https://www.youtube.com/watch?v=0-nr5TaDGnE">Clique aqui</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-body">
+                <!-- Música 03 do dia 01 -->
+                <button class="btn btn-primary btnMusicas" type="button" data-toggle="collapse" data-target="#musica03-02" aria-expanded="false" aria-controls="musica03-02">
+                    <p>03 Feliz demais</p>
+                </button>
+                <div class="collapse" id="musica03-02">
+                    <div class="card card-body propMusica">
+                        <!-- Propriedades da música 03 -->
+                        <p>
+                            <strong>Solista: </strong>Caio <br>
+                            <strong>Tom: </strong>B (Si) <br>
+                            <strong>BPM: </strong>140 <br>
+                            <strong>Link: </strong><a href="https://www.youtube.com/watch?v=gDb5RwSNBP0&list=PLF3kcCJTaFvZfQiDTHESEdTSgIbUviItf&index=2">Clique aqui</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card card-body">
+                <!-- Música 04 do dia 01 -->
+                <button class="btn btn-primary btnMusicas" type="button" data-toggle="collapse" data-target="#musica04-02" aria-expanded="false" aria-controls="musica04-02">
+                    <p>04 Sinto Fuir</p>
+                </button>
+                <div class="collapse" id="musica04-02">
+                    <div class="card card-body propMusica">
+                        <!-- Propriedades da música 04 -->
+                        <p>
+                            <strong>Solista: </strong>Keila <br>
+                            <strong>Tom: </strong>C (Dó) <br>
+                            <strong>BPM: </strong>130 <br>
+                            <strong>Link: </strong><a href="https://www.youtube.com/watch?v=bwUJsH6bVEI&list=PLF3kcCJTaFvZfQiDTHESEdTSgIbUviItf&index=29">Clique aqui</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------- FIM ACCORDION ----------- -->
+
+    <!-- ------------------------ SCRIPT -------------------------->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
