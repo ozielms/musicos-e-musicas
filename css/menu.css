@@ -1,6 +1,11 @@
+@import url(/css/base/global.css);
+:root {
+    --primary-color: black;
+}
+
 .navegacao {
     /* height: 50px; */
-    background-color: black;
+    background-color: var(--primary-color);
     box-shadow: 1px 2px #54542c;
     color: aliceblue;
     text-align: center;
@@ -23,7 +28,6 @@
 
 .conteudo {
     padding-top: 80px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
 }
@@ -34,8 +38,9 @@
 
 button.btnDiasDaSemana {
     margin-bottom: 20px;
-    height: 120px;
-    background-color: black;
+    padding: 25px;
+    box-shadow: tomato;
+    background-color: var(--primary-color);
 }
 
 button.btnMusicas {
@@ -46,7 +51,10 @@ button.btnMusicas {
 
 .conteudo .btnDiasDaSemana:hover {
     margin-bottom: 20px;
-    height: 120px;
     background-color: rgb(255, 255, 255);
     color: black;
+}
+
+table {
+    text-transform: uppercase;
 }
